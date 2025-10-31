@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* small helper styles */
+html, body, #root { height: 100%; }
+@keyframes gradient-move {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.animate-gradient-move {
+  background-size: 200% 200%;
+  animation: gradient-move 4s ease infinite;
+}
+@keyframes gradient-move {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.animate-gradient-move {
+  background-size: 200% 200%;
+  animation: gradient-move 4s ease infinite;
+}
+
+.perspective {
+  perspective: 1200px;
+}
+
+.transform-gpu {
+  transform-style: preserve-3d;
+}
+@keyframes gradient-move {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.animate-gradient-move {
+  background-size: 200% 200%;
+  animation: gradient-move 4s ease infinite;
+}
+ 
+@keyframes glow-pulse {
+  0%, 100% { filter: drop-shadow(0 0 6px rgba(147,51,234,0.6)); }
+  50% { filter: drop-shadow(0 0 12px rgba(236,72,153,0.8)); }
+}
+
+svg circle[stroke^="url"] {
+  animation: glow-pulse 2.5s infinite ease-in-out;
+}
+ 
+
+@keyframes gradient-move {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.animate-gradient-move {
+  background-size: 200% 200%;
+  animation: gradient-move 6s ease infinite;
+}
+
