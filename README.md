@@ -113,35 +113,8 @@ JoineazyTask1/
 
 ---
 
-## 🧑‍💻 Author
+ 
 
-**Shreya Mathur**  
-📧 [your-email@example.com]  
-💼 GitHub: [https://github.com/your-username](https://github.com/your-username)
+ 
 
----
-
-## 🏁 Future Enhancements
-
-- 🌐 Integration with a real backend (MongoDB / Express)
-- 🧠 Role-based authentication with JWT
-- 📅 Calendar view for deadlines
-- 📈 Enhanced analytics dashboard for admins
-- 💬 Notification system for assignment updates
-
----
-
-## 📸 Preview (Optional)
-You can drag and drop screenshots here if you’d like to showcase the UI once deployed.
-
----
-
-✅ **Now just save this file as**  
-`README.md`  
-in your project’s root folder → then push to GitHub:
-
-```bash
-git add README.md
-git commit -m "Added README with setup and architecture overview"
-git push
-```
+ 
